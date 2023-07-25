@@ -93,6 +93,29 @@
   opacity: 1;
 }
 
+.tags {
+  margin-left: 10px;
+}
+
+.tags a.list-item {
+  color: var(--main-txt-color) !important;
+  flex: 0;
+  padding: 0px 6px;
+  min-height: 0px;
+  line-height: 0px;
+}
+
+.tags .list-item-container {
+  height: 20px;
+  display: inline-block;
+  background: var(--panel-fg-color) !important;
+  border-radius: 20px;
+  margin: 4px 4px;
+  min-height: 0px !important;
+  padding-bottom: 4px !important;
+  padding: 10px 5px !important;
+}
+
 /* Sync Area */
 
 .sidebar>div:last-of-type {
@@ -179,14 +202,16 @@
   opacity: 1;
 }
 
-.note-list .list-item-container a:focus {
+.note-list .list-item-container a:hover {
   color: var(--main-txt-color) !important;
-  background-color: var(--accent-color) !important;
   opacity: 1;
 }
 
-.note-list .list-item-container a:hover {
+.selected.todo-list-item>div,
+.selected.todo-list-item>div~a,
+.selected.note-list-item>a {
   color: var(--main-txt-color) !important;
+  background-color: var(--accent-color) !important;
   opacity: 1;
 }
 
