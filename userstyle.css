@@ -1,0 +1,138 @@
+/* Style for rendered Markdown */
+
+/*********************************************************
+* Variables
+*********************************************************/
+
+:root {
+  --main-txt-color: #d5dee9;
+  --alt-txt-color: #8fb2f1;
+  --accent-color: #4586c4;
+
+  --md-fg-color: #2b3847;
+  --md-bg-color: #151b22;
+  --panel-bg-color: #11171d;
+
+  --font-face: "Fira Sans", Arial, Helvetica, sans-serif;
+  --font-mono: "Roboto Mono", Courier, monospace;
+  --hover-opacity: 0.8;
+}
+
+/*********************************************************
+* Content
+*********************************************************/
+
+#rendered-md,
+body {
+  color: var(--main-txt-color) !important;
+  background-color: var(--panel-bg-color) !important;
+  font-family: var(--font-face) !important;
+}
+
+/* Horizontal Rule */
+hr {
+  border-bottom: 4px solid var(--md-fg-color) !important;
+  border-radius: 1px;
+  margin: 1.5em 0;
+}
+
+/* Dynamic Highlighting */
+::selection {
+  background-color: var(--accent-color) !important;
+}
+
+/* Static Highlighting */
+mark,
+mark strong {
+  background: var(--accent-color) !important;
+  color: white !important;
+}
+
+/* Scrollbars */
+::-webkit-scrollbar-thumb {
+  background-color: var(--md-fg-color) !important;
+}
+
+/*********************************************************
+* Hyperlinks
+*********************************************************/
+
+a {
+  color: var(--accent-color) !important;
+  opacity: 1;
+  text-decoration: none !important;
+}
+
+a:hover {
+  text-decoration: underline !important;
+}
+
+/* Joplin Icon for Joplin Links */
+.resource-icon {
+  background-color: var(--accent-color) !important;
+  opacity: 1;
+}
+
+/*********************************************************
+* Code Blocks
+*********************************************************/
+
+/* Code Fragments */
+pre,
+.hljs {
+  color: var(--alt-txt-color) !important;
+  background-color: var(--md-bg-color) !important;
+  font-family: var(--font-mono) !important;
+  border-radius: 5px;
+  padding: 10px;
+  width: 95%;
+  overflow: scroll;
+}
+
+/* Inline Code */
+.inline-code {
+  color: var(--alt-txt-color) !important;
+  background-color: var(--md-bg-color) !important;
+  font-family: var(--font-mono) !important;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+/*********************************************************
+* Blockquotes
+*********************************************************/
+
+blockquote {
+  color: var(--alt-txt-color) !important;
+  background-color: var(--md-bg-color) !important;
+  font-style: italic;
+  border-left: 4px solid var(--accent-color) !important;
+  border-radius: 5px;
+  width: 95%;
+  padding-left: 10px;
+  padding-right: 10px;
+  opacity: 1;
+}
+
+/*********************************************************
+* Tables
+*********************************************************/
+
+table {
+  background-color: var(--md-bg-color) !important;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+th {
+  border: var(--md-fg-color) !important;
+  background-color: var(--md-fg-color) !important;
+  padding: 10px;
+}
+
+tr:hover {
+  background-color: transparent !important;
+  padding: 10px;
+  opacity: var(--hover-opacity);
+}
