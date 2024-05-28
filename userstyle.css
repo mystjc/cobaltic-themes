@@ -5,7 +5,7 @@
 *********************************************************/
 
 :root {
-  --main-txt-color: #d5dee9;
+  --main-txt-color: #c2ddff;
   --alt-txt-color: #8fb2f1;
   --accent-color: #4586c4;
 
@@ -15,7 +15,6 @@
 
   --font-face: "Fira Sans", Arial, Helvetica, sans-serif;
   --font-mono: "Roboto Mono", Courier, monospace;
-  --hover-opacity: 0.8;
 }
 
 /*********************************************************
@@ -25,6 +24,12 @@
 #rendered-md,
 body {
   color: var(--main-txt-color) !important;
+  background-color: var(--panel-bg-color) !important;
+  font-family: var(--font-face) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--alt-txt-color) !important;
   background-color: var(--panel-bg-color) !important;
   font-family: var(--font-face) !important;
 }
@@ -80,13 +85,74 @@ a:hover {
 /* Code Fragments */
 pre,
 .hljs {
-  color: var(--alt-txt-color) !important;
+  color: var(--main-txt-color) !important;
   background-color: var(--md-bg-color) !important;
   font-family: var(--font-mono) !important;
   border-radius: 5px;
   padding: 10px;
   width: 95%;
   overflow: scroll;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: #7285b7;
+}
+
+/* Tomorrow Red */
+.hljs-variable,
+.hljs-template-variable,
+.hljs-tag,
+.hljs-name,
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion {
+  color: #ff9da4;
+}
+
+/* Tomorrow Orange */
+.hljs-number,
+.hljs-built_in,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
+.hljs-link {
+  color: #ffc58f;
+}
+
+/* Tomorrow Yellow */
+.hljs-attribute {
+  color: #ffeead;
+}
+
+/* Tomorrow Green */
+.hljs-string,
+.hljs-symbol,
+.hljs-bullet,
+.hljs-addition {
+  color: #d1f1a9;
+}
+
+/* Tomorrow Blue */
+.hljs-title,
+.hljs-section {
+  color: #bbdaff;
+}
+
+/* Tomorrow Purple */
+.hljs-keyword,
+.hljs-selector-tag {
+  color: #ebbbff;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
 }
 
 /* Inline Code */
@@ -120,19 +186,27 @@ blockquote {
 
 table {
   background-color: var(--md-bg-color) !important;
-  border-collapse: collapse;
-  border-radius: 10px;
+  border-radius: 5px;
   overflow: hidden;
 }
 
 th {
-  border: var(--md-fg-color) !important;
-  background-color: var(--md-fg-color) !important;
+  color: var(--alt-txt-color) !important;
+  padding: 10px;
+}
+
+td {
+  color: var(--main-txt-color) !important;
+  padding: 10px;
+}
+
+tr {
+  background-color: var(--md-bg-color) !important;
+  border-bottom: 3px solid;
+  border-color: var(--md-fg-color);
   padding: 10px;
 }
 
 tr:hover {
   background-color: transparent !important;
-  padding: 10px;
-  opacity: var(--hover-opacity);
 }

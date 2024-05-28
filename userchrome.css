@@ -5,15 +5,13 @@
 *********************************************************/
 
 :root {
-  --main-txt-color: #d5dee9;
-  --alt-txt-color: #8fb2f1;
-  --accent-color: #4586c4;
+	--main-txt-color: #c2ddff;
+	--alt-txt-color: #8fb2f1;
+	--accent-color: #4586c4;
 
-  --panel-fg-color: #2b3847;
-  --panel-mg-color: #151b22;
-  --panel-bg-color: #11171d;
-
-  --hover-opacity: 0.8;
+	--panel-fg-color: #2b3847;
+	--panel-mg-color: #151b22;
+	--panel-bg-color: #11171d;
 }
 
 /*********************************************************
@@ -24,14 +22,14 @@
 .fa,
 .far,
 .fas {
-  font-weight: 900 !important;
-  font-family: "Font Awesome 5 Free" !important;
-  font-size: 16px !important;
+	font-weight: 900 !important;
+	font-family: "Font Awesome 5 Free" !important;
+	font-size: 16px !important;
 }
 
 /* Scrollbars */
 ::-webkit-scrollbar-thumb {
-  background-color: var(--panel-fg-color) !important;
+	background-color: var(--panel-fg-color) !important;
 }
 
 /*********************************************************
@@ -40,29 +38,29 @@
 
 /* Main Panel */
 .resizableLayoutItem>div {
-  background-color: var(--panel-bg-color) !important;
+	background-color: var(--panel-bg-color) !important;
 }
 
 /* Sidebar Panel */
 .resizableLayoutItem .rli-sideBar {
-  background-color: var(--panel-bg-color) !important;
+	background-color: var(--panel-bg-color) !important;
 }
 
 /* Sidebar Folders/Tags Panel */
 .sidebar {
-  background-color: var(--panel-bg-color) !important;
+	background-color: var(--panel-bg-color) !important;
 }
 
 /* Notes List Top Panel */
 .rli-noteList>div>div>div {
-  background-color: var(--panel-mg-color) !important;
-  border: none;
+	background-color: var(--panel-mg-color) !important;
+	border: none;
 }
 
 /* Notes List Bottom Panel */
 .rli-noteList>div>div>div~div {
-  background-color: var(--panel-mg-color) !important;
-  border: none;
+	background-color: var(--panel-mg-color) !important;
+	border: none;
 }
 
 /*********************************************************
@@ -71,69 +69,79 @@
 
 /* Folders */
 
-.folders .list-item-container a {
-  color: var(--main-txt-color) !important;
-  opacity: 1;
+.folders .list-item-container.selected {
+	color: var(--main-txt-color) !important;
+	background-color: var(--accent-color) !important;
+	border-radius: 5px;
+	opacity: 1;
 }
 
-.folders .list-item-container a:hover {
-  color: var(--alt-txt-color) !important;
-  opacity: 1;
+.folders .list-item-container.selected:hover {
+	color: var(--main-txt-color) !important;
+	background-color: var(--accent-color) !important;
+	border-radius: 5px;
+	opacity: 1;
+}
+
+.folders .list-item-container:hover {
+	color: var(--main-txt-color) !important;
+	background-color: var(--panel-fg-color) !important;
+	border-radius: 5px;
 }
 
 /* Tags */
 
-.tags .list-item-container a {
-  color: var(--main-txt-color) !important;
-  opacity: 1;
-}
-
-.tags .list-item-container a:hover {
-  color: var(--alt-txt-color) !important;
-  opacity: 1;
-}
-
 .tags {
-  margin-left: 10px;
+	margin-left: 10px;
 }
 
 .tags a.list-item {
-  color: var(--main-txt-color) !important;
-  flex: 0;
-  padding: 0px 6px;
-  min-height: 0px;
-  line-height: 0px;
+	flex: 0;
+	padding: 0px 6px;
+	min-height: 0px;
+	line-height: 0px;
 }
 
 .tags .list-item-container {
-  height: 20px;
-  display: inline-block;
-  background: var(--panel-fg-color) !important;
-  border-radius: 20px;
-  margin: 4px 4px;
-  min-height: 0px !important;
-  padding-bottom: 4px !important;
-  padding: 10px 5px !important;
+	height: 20px;
+	display: inline-block;
+	background: var(--panel-fg-color) !important;
+	border-radius: 20px;
+	margin: 4px 4px;
+	min-height: 0px !important;
+	padding-bottom: 4px !important;
+	padding: 10px 5px !important;
+}
+
+.tags .list-item-container:hover {
+	height: 20px;
+	display: inline-block;
+	background: var(--accent-color) !important;
+	border-radius: 20px;
+	margin: 4px 4px;
+	min-height: 0px !important;
+	padding-bottom: 4px !important;
+	padding: 10px 5px !important;
 }
 
 /* Sync Area */
 
 .sidebar>div:last-of-type {
-  background-color: none !important;
+	background-color: none !important;
 }
 
 .sidebar>div:last-of-type>button {
-  background-color: var(--panel-fg-color) !important;
-  border: 0px;
+	background-color: var(--panel-fg-color) !important;
+	border: 0px;
 }
 
 .sidebar>div:last-of-type>button:hover {
-  background-color: var(--accent-color) !important;
+	background-color: var(--accent-color) !important;
 }
 
 .sidebar>div:last-of-type>button>span {
-  color: var(--main-txt-color) !important;
-  opacity: 1;
+	color: var(--main-txt-color) !important;
+	opacity: 1;
 }
 
 /*********************************************************
@@ -143,82 +151,105 @@
 /* Notes List Buttons */
 
 .new-note-button,
-.new-todo-button {
-  background-color: var(--panel-fg-color) !important;
-  border-color: var(--panel-fg-color) !important;
-  opacity: 1;
+.new-todo-button,
+.sort-order-field-button,
+.sort-order-reverse-button {
+	background-color: var(--panel-fg-color) !important;
+	border-color: var(--panel-fg-color) !important;
+	opacity: 1;
 }
 
 .new-note-button:hover,
-.new-todo-button:hover {
-  background-color: var(--accent-color) !important;
-  border-color: var(--panel-fg-color) !important;
-  opacity: 1;
+.new-todo-button:hover,
+.sort-order-field-button:hover,
+.sort-order-reverse-button:hover {
+	background-color: var(--accent-color) !important;
+	border-color: var(--panel-fg-color) !important;
+	opacity: 1;
 }
 
 .new-note-button>span,
-.new-todo-button>span {
-  color: var(--main-txt-color) !important;
-  opacity: 1;
+.new-todo-button>span,
+.sort-order-field-button>span,
+.sort-order-reverse-button>span {
+	color: var(--main-txt-color) !important;
+	opacity: 1;
 }
 
 .search-bar>div {
-  background-color: var(--panel-fg-color) !important;
+	background-color: var(--panel-fg-color) !important;
 }
 
 .search-bar>div>input,
 .icon-search {
-  color: var(--main-txt-color) !important;
-  opacity: 1;
+	color: var(--main-txt-color) !important;
+	opacity: 1;
 }
 
 .search-and-sort>div~div>button {
-  background-color: var(--panel-fg-color) !important;
-  border-color: var(--panel-fg-color) !important;
-  opacity: 1;
+	background-color: var(--panel-fg-color) !important;
+	border-color: var(--panel-fg-color) !important;
+	opacity: 1;
 }
 
 .search-and-sort>div~div>button>span {
-  color: var(--main-txt-color) !important;
-  opacity: 1;
+	color: var(--main-txt-color) !important;
+	opacity: 1;
 }
 
 /* Lists of Notes */
 
 .note-list .list-item-container {
-  background-color: var(--panel-mg-color) !important;
+	background-color: var(--panel-mg-color) !important;
 }
 
 .note-list .list-item-container:hover {
-  background-color: var(--panel-fg-color) !important;
+	background-color: var(--panel-fg-color) !important;
 }
 
 .item-list.note-list .list-item-container::before {
-  border: none !important;
+	border: none !important;
 }
 
 .note-list .list-item-container a {
-  color: var(--main-txt-color) !important;
-  opacity: 1;
+	color: var(--main-txt-color) !important;
+	opacity: 1;
 }
 
 .note-list .list-item-container a:hover {
-  color: var(--main-txt-color) !important;
-  opacity: 1;
+	color: var(--main-txt-color) !important;
+	opacity: 1;
 }
 
 .selected.todo-list-item>div,
 .selected.todo-list-item>div~a,
 .selected.note-list-item>a {
-  color: var(--main-txt-color) !important;
-  background-color: var(--accent-color) !important;
-  opacity: 1;
+	color: var(--main-txt-color) !important;
+	background-color: var(--accent-color) !important;
+	opacity: 1;
 }
 
 /* Add "..." to Notes with Long Titles */
 .item-list.note-list .list-item-container>a>span {
-  overflow: hidden;
-  text-overflow: ellipsis;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.dragcursor,
+.content.-selected {
+	background-color: var(--accent-color) !important;
+	border-radius: 5px;
+}
+
+.dragcursor:hover,
+.content.-selected:hover {
+	background-color: var(--accent-color) !important;
+	border-radius: 5px;
+}
+
+.note-list-item:hover {
+	background-color: var(--panel-fg-color) !important;
+	border-radius: 5px;
 }
 
 /*********************************************************
@@ -228,65 +259,69 @@
 /* TITLE */
 
 .title-input {
-  background-color: var(--panel-bg-color) !important;
+	background-color: var(--panel-bg-color) !important;
+}
+
+.sc-ikkxIA.hLzWZa>div {
+	background-color: var(--panel-bg-color) !important;
 }
 
 .editor-toolbar {
-  background-color: var(--panel-fg-color) !important;
-  border-radius: 5px;
+	background-color: var(--panel-fg-color) !important;
+	border-radius: 5px;
 }
 
 .resizableLayoutItem>div>div>div>.sc-dAbbOL>div>div {
-  background-color: var(--panel-bg-color) !important;
+	background-color: var(--panel-bg-color) !important;
 }
 
 .editor-toolbar>div>a:hover {
-  background-color: var(--accent-color) !important;
-  opacity: var(--hover-opacity);
+	background-color: var(--accent-color) !important;
+	opacity: 1;
 }
 
 /* Hide "Spell checker" Button */
 .editor-toolbar a[title="Spell checker"] {
-  display: none !important;
+	display: none !important;
 }
 
 /* Hide "Markdown/Richtext editor" Button */
 .tox-tbtn {
-  display: none !important;
+	display: none !important;
 }
 
 /* NOTE SEARCH BAR */
 
 .note-search-bar,
 .note-search-bar>div>div {
-  background-color: var(--panel-fg-color) !important;
-  border: 0;
-  border-radius: 5px;
-  padding: 5px;
+	background-color: var(--panel-fg-color) !important;
+	border: 0;
+	border-radius: 5px;
+	padding: 5px;
 }
 
 .note-search-bar input {
-  color: var(--main-txt-color) !important;
-  background-color: var(--panel-mg-color) !important;
-  border: 0;
-  border-radius: 2px;
-  padding: 5px;
+	color: var(--main-txt-color) !important;
+	background-color: var(--panel-mg-color) !important;
+	border: 0;
+	border-radius: 2px;
+	padding: 5px;
 }
 
 /* TAGS */
 
 .tag-bar {
-  background-color: transparent !important;
+	background-color: transparent !important;
 }
 
 .tag-list>button {
-  color: var(--main-txt-color) !important;
-  background-color: var(--panel-fg-color) !important;
+	color: var(--main-txt-color) !important;
+	background-color: var(--panel-fg-color) !important;
 }
 
 /* Hide "Click to add tags..." */
 a[Title="Tags"]+div>span {
-  display: none !important;
+	display: none !important;
 }
 
 /*********************************************************
@@ -297,36 +332,36 @@ a[Title="Tags"]+div>span {
 .CodeMirror-lines,
 .CodeMirror-vscrollbar,
 .CodeMirror-scroll {
-  background-color: var(--panel-bg-color) !important;
+	background-color: var(--panel-bg-color) !important;
 }
 
 /* Editer Font */
 .CodeMirror * {
-  font-family: "Cool Jazz", Avenir, Arial, sans-serif !important;
+	font-family: "Cool Jazz", Avenir, Arial, sans-serif !important;
 }
 
 /* Editer Text Color */
 span[role="presentation"] {
-  color: var(--main-txt-color) !important;
+	color: var(--main-txt-color) !important;
 }
 
 /* Header */
 .cm-header {
-  color: var(--alt-txt-color) !important;
+	color: var(--alt-txt-color) !important;
 }
 
 /* Italics/Emphasis, Bold, Bold-Italics */
 .cm-em,
 .cm-strong,
 .cm-strong.cm-em {
-  color: var(--alt-txt-color) !important;
+	color: var(--alt-txt-color) !important;
 }
 
 /* Lists (Bullet/Number/Todo) */
 .cm-variable-2,
 .cm-variable-3,
 .cm-keyword {
-  color: var(--main-txt-color) !important;
+	color: var(--main-txt-color) !important;
 }
 
 /* Lists (Italics/Emphasis, Bold, Bold-Italics) */
@@ -339,51 +374,51 @@ span[role="presentation"] {
 .cm-em.cm-keyword,
 .cm-strong.cm-keyword,
 .cm-strong.cm-em.cm-keyword {
-  color: var(--alt-txt-color) !important;
+	color: var(--alt-txt-color) !important;
 }
 
 /* Links (Link) */
 .cm-url {
-  color: var(--alt-txt-color) !important;
-  opacity: 1;
-  text-decoration: underline;
+	color: var(--alt-txt-color) !important;
+	opacity: 1;
+	text-decoration: underline;
 }
 
 /* Links (Text) */
 .cm-link-text {
-  color: var(--alt-txt-color) !important;
+	color: var(--alt-txt-color) !important;
 }
 
 /* Code (Text) */
 .cm-comment {
-  color: var(--alt-txt-color) !important;
+	color: var(--alt-txt-color) !important;
 }
 
 /* Code (Inline) */
 .cm-comment.cm-jn-inline-code {
-  background-color: transparent !important;
+	background-color: transparent !important;
 }
 
 /* Code (Block) */
 .cm-jn-code-block-background {
-  background-color: var(--panel-bg-color) !important;
+	background-color: var(--panel-bg-color) !important;
 }
 
 /* Horizontal Line */
 .cm-hr {
-  color: var(--panel-fg-color) !important;
+	color: var(--panel-fg-color) !important;
 }
 
 /* Dynamic Highlighting */
 .CodeMirror-lines .CodeMirror-selected {
-  background: var(--accent-color) !important;
+	background: var(--accent-color) !important;
 }
 
 /* Search Highlighting */
 .CodeMirror-lines .cm-search-marker {
-  background: var(--accent-color) !important;
+	background: var(--accent-color) !important;
 }
 
 .CodeMirror-lines .cm-search-marker-selected {
-  background-color: transparent !important;
+	background-color: transparent !important;
 }
