@@ -9,22 +9,61 @@
 	--alt-txt-color: #8fb2f1;
 	--accent-color: #4586c4;
 
-	--panel-fg-color: #2b3847;
-	--panel-mg-color: #151b22;
-	--panel-bg-color: #11171d;
+	--panel-fg-color: #34465c;
+	--panel-mg-color: #293544;
+	--panel-bg-color: #242f3b;
 }
 
 /*********************************************************
 * Content
 *********************************************************/
 
-/* Icons */
+/* Icons and Labels */
 .fa,
 .far,
 .fas {
 	font-weight: 900 !important;
 	font-family: "Font Awesome 5 Free" !important;
 	font-size: 16px !important;
+}
+
+.sidebar .icon-notebooks,
+.sidebar .icon-notebooks~span,
+.icon-notes,
+.icon-notes~a,
+.icon-tags,
+.icon-tags~span,
+.fa-plus,
+.fa-times,
+.folders .title,
+.folders .note-count,
+.sidebar .tag-label,
+.sidebar .note-count-label,
+.fa-share-square,
+.title-input,
+.icon-back,
+.icon-forward,
+.icon-share,
+.icon-bold,
+.icon-italic,
+.icon-link,
+.icon-code,
+.icon-attachment,
+.icon-bulleted-list,
+.icon-numbered-list,
+.icon-to-do-list,
+.icon-heading,
+.fa-ellipsis-h,
+.icon-add-date,
+.icon-info,
+.icon-layout,
+.fa-chevron-up,
+.fa-chevron-down,
+.fa-hand-point-left,
+.fa-caret-down,
+.fa-hashtag,
+.icon-alarm {
+	color: var(--main-txt-color) !important;
 }
 
 /* Scrollbars */
@@ -63,12 +102,16 @@
 	border: none;
 }
 
+/* Panel Divider */
+div:has(> iframe) {
+	border-color: var(--panel-bg-color) !important;
+}
+
 /*********************************************************
 * Sidebar
 *********************************************************/
 
 /* Folders */
-
 .folders .list-item-container.selected {
 	color: var(--main-txt-color) !important;
 	background-color: var(--accent-color) !important;
@@ -89,8 +132,12 @@
 	border-radius: 5px;
 }
 
-/* Tags */
+.folders .all-notes {
+	color: var(--main-txt-color) !important;
+	background-color: var(--panel-bg-color) !important;
+}
 
+/* Tags */
 .tags {
 	margin-left: 10px;
 }
@@ -125,7 +172,6 @@
 }
 
 /* Sync Area */
-
 .sidebar>div:last-of-type {
 	background-color: none !important;
 }
@@ -149,7 +195,6 @@
 *********************************************************/
 
 /* Notes List Buttons */
-
 .new-note-button,
 .new-todo-button,
 .sort-order-field-button,
@@ -176,13 +221,19 @@
 	opacity: 1;
 }
 
+/* Notes List Search */
 .search-bar>div {
 	background-color: var(--panel-fg-color) !important;
+	border: transparent !important;
+	border-radius: 5px;
 }
 
 .search-bar>div>input,
+.search-bar>div>input::placeholder,
 .icon-search {
 	color: var(--main-txt-color) !important;
+	background-color: var(--panel-fg-color) !important;
+	border: transparent !important;
 	opacity: 1;
 }
 
@@ -197,8 +248,17 @@
 	opacity: 1;
 }
 
-/* Lists of Notes */
+.emptylist {
+	color: var(--main-txt-color) !important;
+	background-color: var(--panel-mg-color) !important;
+}
 
+span>mark {
+	color: var(--main-txt-color) !important;
+	background-color: transparent !important;
+}
+
+/* Lists of Notes */
 .note-list .list-item-container {
 	background-color: var(--panel-mg-color) !important;
 }
@@ -235,6 +295,11 @@
 	text-overflow: ellipsis;
 }
 
+.content>div>span,
+.content.-selected>div>span {
+	color: var(--main-txt-color) !important;
+}
+
 .dragcursor,
 .content.-selected {
 	background-color: var(--accent-color) !important;
@@ -247,9 +312,90 @@
 	border-radius: 5px;
 }
 
+.note-list-item::before {
+	border-bottom: transparent !important;
+}
+
 .note-list-item:hover {
 	background-color: var(--panel-fg-color) !important;
 	border-radius: 5px;
+}
+
+/*********************************************************
+* Dialogs
+*********************************************************/
+
+/* Tags */
+.modal-dialog {
+	background-color: var(--panel-mg-color) !important;
+	border-radius: 5px;
+}
+
+.modal-dialog>label {
+	color: var(--main-txt-color) !important;
+}
+
+.tag-selector {
+	background-color: var(--panel-bg-color) !important;
+	border-radius: 5px;
+}
+
+.modal-dialog>div~div>button {
+	color: var(--main-txt-color) !important;
+	background-color: var(--panel-fg-color) !important;
+	border-color: var(--panel-fg-color) !important;
+	border-radius: 5px;
+	opacity: 1;
+}
+
+.modal-dialog>div~div>button:hover {
+	color: var(--main-txt-color) !important;
+	background-color: var(--accent-color) !important;
+	border-color: var(--panel-fg-color) !important;
+	border-radius: 5px;
+	opacity: 1;
+}
+
+/* Create Notebook */
+.master-password-dialog>div,
+.dialog-root,
+.dialog-content {
+	background-color: var(--panel-mg-color) !important;
+}
+
+.dialog-root>div,
+.dialog-root>div~div~div>button {
+	color: var(--main-txt-color) !important;
+}
+
+.dialog-root>div~div~div>button {
+	background-color: var(--panel-fg-color) !important;
+	border: transparent !important;
+}
+
+.dialog-root>div~div~div>button:hover {
+	background-color: var(--accent-color) !important;
+	border: transparent !important;
+}
+
+.form-input-group>label,
+.form-input-group>div>button>span {
+	color: var(--main-txt-color) !important;
+}
+
+.form-input-group>div>button {
+	background-color: var(--panel-fg-color) !important;
+	border: transparent !important;
+}
+
+.form-input-group>div>button:hover {
+	background-color: var(--accent-color) !important;
+	border: transparent !important;
+}
+
+/* Command Palette */
+.item-list div {
+	color: var(--main-txt-color) !important;
 }
 
 /*********************************************************
@@ -257,7 +403,6 @@
 *********************************************************/
 
 /* TITLE */
-
 .title-input {
 	background-color: var(--panel-bg-color) !important;
 }
@@ -291,11 +436,11 @@
 }
 
 /* NOTE SEARCH BAR */
-
 .note-search-bar,
 .note-search-bar>div>div {
+	color: var(--main-txt-color) !important;
 	background-color: var(--panel-fg-color) !important;
-	border: 0;
+	border: transparent !important;
 	border-radius: 5px;
 	padding: 5px;
 }
@@ -308,10 +453,18 @@
 	padding: 5px;
 }
 
-/* TAGS */
+.note-search-bar input::placeholder {
+	color: var(--main-txt-color) !important;
+}
 
+/* TAGS */
 .tag-bar {
 	background-color: transparent !important;
+}
+
+.tag-bar>a:hover {
+	color: var(--main-txt-color) !important;
+	background-color: var(--accent-color) !important;
 }
 
 .tag-list>button {
@@ -373,7 +526,9 @@ span[role="presentation"] {
 .cm-strong.cm-em.cm-variable-3,
 .cm-em.cm-keyword,
 .cm-strong.cm-keyword,
-.cm-strong.cm-em.cm-keyword {
+.cm-strong.cm-em.cm-keyword,
+.cm-quote,
+.cm-quote-1 {
 	color: var(--alt-txt-color) !important;
 }
 
@@ -397,6 +552,7 @@ span[role="presentation"] {
 /* Code (Inline) */
 .cm-comment.cm-jn-inline-code {
 	background-color: transparent !important;
+	border: transparent !important;
 }
 
 /* Code (Block) */
@@ -411,14 +567,21 @@ span[role="presentation"] {
 
 /* Dynamic Highlighting */
 .CodeMirror-lines .CodeMirror-selected {
+	color: var(--main-txt-color) !important;
 	background: var(--accent-color) !important;
+}
+
+.CodeMirror>div:has(textarea) {
+	color: var(--main-txt-color) !important;
 }
 
 /* Search Highlighting */
 .CodeMirror-lines .cm-search-marker {
+	color: var(--main-txt-color) !important;
 	background: var(--accent-color) !important;
 }
 
 .CodeMirror-lines .cm-search-marker-selected {
+	color: var(--main-txt-color) !important;
 	background-color: transparent !important;
 }

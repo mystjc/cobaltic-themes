@@ -1,9 +1,9 @@
 
 ## Cobalt
 
-A stylistic dark theme for Joplin that builds upon Joplin's Aritim Dark theme.
+A stylistic dark theme for Joplin that was originally inspired by Joplin's Aritim Dark theme.
 
-![](cobalt.png)
+![](cobaltic.png)
 
 ## Installation
 
