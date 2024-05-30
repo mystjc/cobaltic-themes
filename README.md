@@ -1,5 +1,5 @@
 
-## Cobalt
+## Cobaltic
 
 A stylistic dark theme for Joplin that was originally inspired by Joplin's Aritim Dark theme.
 
