@@ -1,14 +1,16 @@
 
-## Cobaltic
+## KDE
 
-Stylistic dark theme for [KDE](https://kde.org/), originally inspired by the theme - [Aritim Dark](https://github.com/Mrcuve0/Aritim-Dark).
+Stylistic color scheme for [KDE](https://kde.org/)
 
-<!--- ![](KDE/assets/cobaltic.png) --->
+![](assets/kde.png)
 
 ## Installation
 
-**Color Scheme:**
+**System Color Scheme:**
 - Launch your terminal or file manager of choice
-- Navigate to `~/.local/share/color-schemes/`
-	- Download the file `Cobaltic.colors` and move it into the directory
-- Alternatively, you can clone this repository and move `Cobaltic.colors` into the directory
+- Download the file `Cobaltic.colors`
+- Navigate to `~/.local/share/color-schemes/` and move the file into the directory
+
+> ### Note
+> - Recommend to restart your PC to ensure everything applies correctly
