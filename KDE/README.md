@@ -12,5 +12,6 @@ Stylistic color scheme for [KDE](https://kde.org/)
 - Download the file `Cobaltic.colors`
 - Navigate to `~/.local/share/color-schemes/` and move the file into the directory
 
-> ### Note
+### Note
 > - Recommend to restart your PC to ensure everything applies correctly
+> - You can further modify this theme using KColorSchemeEditor
