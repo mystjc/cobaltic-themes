@@ -3,7 +3,7 @@
 
 Stylistic dark theme for [Joplin](https://joplinapp.org/), originally inspired by the theme - [Aritim Dark](https://github.com/Mrcuve0/Aritim-Dark).
 
-![](Joplin/assets/cobaltic.png?raw=true)
+![](assets/cobaltic.png)
 
 ## Installation
 
