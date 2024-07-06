@@ -3,7 +3,7 @@
 
 Stylistic color scheme for [KDE](https://kde.org/)
 
-![](KDE/../assets/kde.png)
+![](../assets/kde.png)
 
 ## Installation
 

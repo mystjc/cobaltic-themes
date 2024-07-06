@@ -3,7 +3,7 @@
 
 Stylistic color scheme for [Joplin](https://joplinapp.org/), originally inspired by the theme - [Aritim Dark](https://github.com/Mrcuve0/Aritim-Dark)
 
-![](Joplin/..assets/joplin.png)
+![](../assets/joplin.png)
 
 ## Installation
 
