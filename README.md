@@ -9,3 +9,9 @@ This repository contains a collection of applications themed around Cobaltic
 
 - [Joplin](https://github.com/mystjc/cobaltic-themes/tree/main/Joplin) - Open-source Note-taking App
 - [KDE](https://github.com/mystjc/cobaltic-themes/tree/main/KDE) - System Color Scheme
+
+## Featured Fonts
+
+- Cool Jazz
+- CaskaydiaCove Nerd Font Mono
+
