@@ -1,8 +1,8 @@
 /* Style for rendered Markdown */
 
 /*********************************************************
-* Variables
-*********************************************************/
+ * Variables
+ *********************************************************/
 
 :root {
   --main-txt-color: #c2ddff;
@@ -12,20 +12,17 @@
   --md-fg-color: #34465c;
   --md-bg-color: #293544;
   --panel-bg-color: #242f3b;
-
-  --font-face: "Fira Sans", Arial, Helvetica, sans-serif;
-  --font-mono: "Roboto Mono", Courier, monospace;
 }
 
 /*********************************************************
-* Content
-*********************************************************/
+ * Content
+ *********************************************************/
 
 #rendered-md,
 body {
   color: var(--main-txt-color) !important;
   background-color: var(--panel-bg-color) !important;
-  font-family: var(--font-face) !important;
+  font-size: 16px !important;
 }
 
 h1,
@@ -35,7 +32,6 @@ h4,
 h5,
 h6 {
   color: var(--alt-txt-color) !important;
-  font-family: var(--font-face) !important;
   border: transparent !important;
 }
 
@@ -65,8 +61,8 @@ mark strong {
 }
 
 /*********************************************************
-* Hyperlinks
-*********************************************************/
+ * Hyperlinks
+ *********************************************************/
 
 a {
   color: var(--accent-color) !important;
@@ -85,15 +81,14 @@ a:hover {
 }
 
 /*********************************************************
-* Code Blocks
-*********************************************************/
+ * Code Blocks
+ *********************************************************/
 
 /* Code Fragments */
 pre,
 .hljs {
   color: var(--main-txt-color) !important;
   background-color: var(--md-bg-color) !important;
-  font-family: var(--font-mono) !important;
   border-radius: 5px;
   padding: 10px;
   width: 95%;
@@ -259,15 +254,14 @@ pre,
 .inline-code {
   color: var(--alt-txt-color) !important;
   background-color: var(--md-bg-color) !important;
-  font-family: var(--font-mono) !important;
   border: transparent !important;
   border-radius: 5px;
   padding: 5px;
 }
 
 /*********************************************************
-* Blockquotes
-*********************************************************/
+ * Blockquotes
+ *********************************************************/
 
 blockquote {
   color: var(--alt-txt-color) !important;
@@ -282,8 +276,8 @@ blockquote {
 }
 
 /*********************************************************
-* Tables
-*********************************************************/
+ * Tables
+ *********************************************************/
 
 table {
   background-color: var(--md-bg-color) !important;
