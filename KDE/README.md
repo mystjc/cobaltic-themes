@@ -7,11 +7,21 @@ Stylistic color scheme for [KDE](https://kde.org/)
 
 ## Installation
 
-**System Color Scheme:**
-- Download the file `Cobaltic.colors`
-- Launch your terminal or file manager of choice
-- Navigate to `~/.local/share/color-schemes/` and move the file into the directory
+**KColorScheme:**
+- Navigate to `~/.local/share/color-schemes/`
+    - Move the file, `Cobaltic.colors`, into the directory
+- Launch System Settings and navigate to `Colors & Themes > Colors`
+    - Click `Cobaltic` and apply the theme
+
+**Konsole:**
+- Navigate to `~/.local/share/konsole/`
+    - Move the file, `Cobaltic.colorschemes`, into the directory
+- Launch Konsole and navigate to `More > Settings > Manage Profiles`
+    - Click `New` and check `Default Profile`
+    - Click `Appearance`, select `Cobaltic`, and apply the theme
+
+**KSyntaxHighlighting:**
 
 > ### Note
 > - Recommended to restart your PC to ensure everything applies correctly
-> - Use KColorSchemeEditor if you are interested in further modifying this theme
+> - Use KColorSchemeEditor if you are interested in further modifying KColorScheme

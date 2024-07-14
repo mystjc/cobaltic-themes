@@ -9,7 +9,7 @@ Stylistic color scheme for [Joplin](https://joplinapp.org/), originally inspired
 
 **Launch Joplin's desktop application:**
 - Navigate to `Tools > Options > Appearance`
-- Make sure that **Joplin is using Aritim Dark** under Theme
+	- Make sure that **Joplin is using Aritim Dark** under Theme
 - Click `Show Advanced Settings`
 	- Click `Custom stylesheet for rendered Markdown` and paste the content from `userstyle.css`
 	- Click `Custom stylesheet for Joplin-wide app styles` and paste the content from `userchrome.css`
