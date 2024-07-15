@@ -51,9 +51,9 @@ This repository offers a collection of Cobaltic-related themes for a variety of 
 		<td><code>#242f3b</code></td>
 	</tr>
 	<tr>
-		<td><img src="https://place-hold.it/32/34465c?text=+" width="24"/></td>
+		<td><img src="https://place-hold.it/32/c2ddff?text=+" width="24"/></td>
 		<td>Foreground</td>
-		<td><code>#34465c</code></td>
+		<td><code>#c2ddff</code></td>
 	</tr>
 	<tr>
 		<td><img src="https://place-hold.it/32/293544?text=+" width="24"/></td>
