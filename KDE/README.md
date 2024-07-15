@@ -24,4 +24,5 @@ Stylistic color scheme for [KDE](https://kde.org/)
 
 > ### Note
 > - Recommended to restart your PC to ensure everything applies correctly
-> - Use KColorSchemeEditor if you are interested in further modifying KColorScheme
+> - Use KColorSchemeEditor if you are interested in further modifying KColorScheme's theme
+> - Use terminal.sexy if you are interested in further modifying Konsole's theme
