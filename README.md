@@ -81,9 +81,9 @@ This repository offers a collection of Cobaltic-related themes for a variety of 
 		<td><code>#639de0</code></td>
 	</tr>
 	<tr>
-		<td><img src="https://place-hold.it/32/dc7dce?text=+" width="24"/></td>
+		<td><img src="https://place-hold.it/32/dc6fcc?text=+" width="24"/></td>
 		<td>Color 5</td>
-		<td><code>#dc7dce</code></td>
+		<td><code>#dc6fcc</code></td>
 	</tr>
 	<tr>
 		<td><img src="https://place-hold.it/32/61bedc?text=+" width="24"/></td>
@@ -101,39 +101,39 @@ This repository offers a collection of Cobaltic-related themes for a variety of 
 		<td><code>#34465c</code></td>
 	</tr>
 	<tr>
-		<td><img src="https://place-hold.it/32/e14356?text=+" width="24"/></td>
+		<td><img src="https://place-hold.it/32/e75c66?text=+" width="24"/></td>
 		<td>Color 9</td>
-		<td><code>#e14356</code></td>
+		<td><code>#e75c66</code></td>
 	</tr>
 	<tr>
-		<td><img src="https://place-hold.it/32/a0df6e?text=+" width="24"/></td>
+		<td><img src="https://place-hold.it/32/ace37e?text=+" width="24"/></td>
 		<td>Color 10</td>
-		<td><code>#a0df6e</code></td>
+		<td><code>#ace37e</code></td>
 	</tr>
 	<tr>
-		<td><img src="https://place-hold.it/32/eabb56?text=+" width="24"/></td>
+		<td><img src="https://place-hold.it/32/eec36a?text=+" width="24"/></td>
 		<td>Color 11</td>
-		<td><code>#eabb56</code></td>
+		<td><code>#eec36a</code></td>
 	</tr>
 	<tr>
-		<td><img src="https://place-hold.it/32/639de0?text=+" width="24"/></td>
+		<td><img src="https://place-hold.it/32/76a6e4?text=+" width="24"/></td>
 		<td>Color 12</td>
-		<td><code>#639de0</code></td>
+		<td><code>#76a6e4</code></td>
 	</tr>
 	<tr>
-		<td><img src="https://place-hold.it/32/dc7dce?text=+" width="24"/></td>
+		<td><img src="https://place-hold.it/32/e180d2?text=+" width="24"/></td>
 		<td>Color 13</td>
-		<td><code>#dc7dce</code></td>
+		<td><code>#e180d2</code></td>
 	</tr>
 	<tr>
-		<td><img src="https://place-hold.it/32/61bedc?text=+" width="24"/></td>
+		<td><img src="https://place-hold.it/32/76c4e0?text=+" width="24"/></td>
 		<td>Color 14</td>
-		<td><code>#61bedc</code></td>
+		<td><code>#76c4e0</code></td>
 	</tr>
 	<tr>
-		<td><img src="https://place-hold.it/32/a8c1de?text=+" width="24"/></td>
+		<td><img src="https://place-hold.it/32/bdd3ef?text=+" width="24"/></td>
 		<td>Color 15</td>
-		<td><code>#a8c1de</code></td>
+		<td><code>#bdd3ef</code></td>
 	</tr>
 </table>
 </details>
