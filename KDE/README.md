@@ -3,7 +3,8 @@
 
 Stylistic color scheme for [KDE](https://kde.org/)
 
-![](../assets/kde.png)
+![](../assets/kcolorscheme.png)
+![](../assets/konsole.png)
 
 ## Installation
 
@@ -15,7 +16,7 @@ Stylistic color scheme for [KDE](https://kde.org/)
 
 **Konsole:**
 - Navigate to `~/.local/share/konsole/`
-    - Move the file, `Cobaltic.colorschemes`, into the directory
+    - Move the file, `Cobaltic.colorscheme`, into the directory
 - Launch Konsole and navigate to `More > Settings > Manage Profiles`
     - Click `New` and check `Default Profile`
     - Click `Appearance`, select `Cobaltic`, and apply the theme
