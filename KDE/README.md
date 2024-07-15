@@ -20,7 +20,11 @@ Stylistic color scheme for [KDE](https://kde.org/)
     - Click `New` and check `Default Profile`
     - Click `Appearance`, select `Cobaltic`, and apply the theme
 
-**KSyntaxHighlighting:**
+**KSyntaxHighlighting (Kate, KWrite, Kile):**
+- Navigate to `~/.local/share/org.kde.syntax-highlighting/themes/`
+    - Move the file, `Cobaltic.theme`, into the directory
+- Launch a KDE editor and navigate to `Settings > Configure Editor > Color Themes`
+    - Click `Select Theme Dropdown`, select `Cobaltic`, and apply the theme
 
 > ### Note
 > - Recommended to restart your PC to ensure everything applies correctly
