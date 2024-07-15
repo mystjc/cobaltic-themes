@@ -46,7 +46,7 @@ This repository offers a collection of Cobaltic-related themes for a variety of 
 		<th>Value</th>
 	</tr>
 	<tr>
-		<td><img src="https://place-hold.it/32/011627?text=+" width="24"/></td>
+		<td><img src="https://place-hold.it/32/242f3b?text=+" width="24"/></td>
 		<td>Background</td>
 		<td><code>#242f3b</code></td>
 	</tr>
