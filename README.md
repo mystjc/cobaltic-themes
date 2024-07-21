@@ -32,7 +32,7 @@ This repository offers a collection of Cobaltic-related themes for a variety of 
 <summary>Fonts & Icons</summary>
 
 - Cool Jazz - Normal Font
-- CaskaydiaCove Nerd Font Propo - Mono Font
+- CaskaydiaCove Nerd Font - Mono Font
 - Papirus Dark - Icon Pack
 
 </details>
