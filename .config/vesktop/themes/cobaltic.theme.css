@@ -60,7 +60,7 @@
     --background-modifier-hover: var(--panel-fg-color);
     --background-modifier-selected: var(--accent-color);
     --background-modifier-accent: var(--panel-fg-color);
-    --background-modifier-active: var(--panel-fg-color);
+    --background-modifier-active: var(--accent-color);
     
     /* --info-positive-background: rgba(166, 218, 149, 0.15);
     --info-positive-foreground: #a6da95;
@@ -232,9 +232,4 @@
 a[href="https://support.discord.com"]
 {
 	display: none;
-}
-
-div[class*='sidebar']>nav>div[class*='searchBar'],
-div[class*='sidebar']>nav>div>header {
-    background-color: var(--panel-bg-color) !important;
 }
