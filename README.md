@@ -3,6 +3,8 @@
 
 Cobaltic is a stylistic color scheme, inspired by both [Nord](https://www.nordtheme.com/) and [Catppuccin](https://catppuccin.com/) color schemes, that aims to blend the elegance and simplicity of Nord with the soothing warmth and vibrancy of Catppuccin.
 
+This repository offers a collection of Cobaltic-related themes for a variety of applications & utilities. To learn more, visit the [wiki](https://github.com/mystjc/cobaltic-themes/wiki).
+
 <details close>
 <summary>Palette</summary>
 <table>
@@ -103,8 +105,6 @@ Cobaltic is a stylistic color scheme, inspired by both [Nord](https://www.nordth
 	</tr>
 </table>
 </details>
-
-This repository offers a collection of Cobaltic-related themes for a variety of applications & utilities. To learn more about a certain program or utility, visit the [wiki](https://github.com/mystjc/cobaltic-themes/wiki).
 
 ## Installation
 
