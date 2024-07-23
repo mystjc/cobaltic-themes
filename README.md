@@ -3,40 +3,6 @@
 
 Cobaltic is a stylistic color scheme, inspired by both [Nord](https://www.nordtheme.com/) and [Catppuccin](https://catppuccin.com/) color schemes, that aims to blend the elegance and simplicity of Nord with the soothing warmth and vibrancy of Catppuccin.
 
-This repository offers a collection of Cobaltic-related themes for a variety of applications & utilities.
-
-## Featured
-
-<details open>
-<summary>Applications</summary>
-
-- [Joplin](https://github.com/mystjc/cobaltic-themes/tree/main/Joplin) - Open-source Note-taking App
-- [Kitty](https://github.com/mystjc/cobaltic-themes/tree/main/Kitty) - Terminal Emulator
-- [Spicetify](https://github.com/mystjc/cobaltic-themes/tree/main/Spicetify) - Open-source Spotify Customization
-- [Vencord](https://github.com/mystjc/cobaltic-themes/tree/main/Vencord) - Open-source Discord Client
-- [WezTerm](https://github.com/mystjc/cobaltic-themes/tree/main/WezTerm) - Terminal Emulator
-
-</details>
-
-<details open>
-<summary>System & Utilities</summary>
-
-- [KDE](https://github.com/mystjc/cobaltic-themes/tree/main/KDE) - Desktop Environment
-    - KColorScheme - System Color Scheme
-    - Konsole - Terminal Emulator
-    - KSyntaxHighlighting - System Syntax Highlighting
-
-</details>
-
-<details open>
-<summary>Fonts & Icons</summary>
-
-- Cool Jazz - Normal Font
-- CaskaydiaCove Nerd Font - Mono Font
-- Papirus Dark - Icon Pack
-
-</details>
-
 <details close>
 <summary>Palette</summary>
 <table>
@@ -137,3 +103,28 @@ This repository offers a collection of Cobaltic-related themes for a variety of 
 	</tr>
 </table>
 </details>
+
+This repository offers a collection of Cobaltic-related themes for a variety of applications & utilities. To learn more about a certain program or utility, visit the [wiki](https://github.com/mystjc/cobaltic-themes/wiki).
+
+## Installation
+
+Install Stow and clone the repository to `~/cobaltic-themes`:
+
+```shell
+sudo pacman -S stow
+git clone https://github.com/mystjc/cobaltic-themes.git && cd cobaltic-themes
+```
+
+Then, run Stow within `~/cobaltic-themes` to create the symlinks:
+
+```shell
+stow .
+```
+
+If there is a conflict with pre-existing files, use:
+
+```shell
+stow --adopt .
+```
+
+#### Highly recommand this [video](https://youtu.be/y6XCebnB9gs?list=PLgO4Le-rukkJjc45SlAjDi-xtikmoOdUu) by Dreams of Autonomy for additional infomation on using Stow!
