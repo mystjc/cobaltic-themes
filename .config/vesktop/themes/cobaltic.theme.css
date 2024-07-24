@@ -6,7 +6,7 @@
 */
 
 :root {
-    --main-txt-color: #c2ddff;
+    --main-txt-color: #b3c8e1;
     --alt-txt-color:  #8fb2f1;
     --accent-color:   #4586c4;
 
@@ -14,21 +14,21 @@
     --panel-mg-color: #293544;
     --panel-bg-color: #242f3b;
 
-    --color1:  #e14356;
-    --color2:  #a0df6e;
-    --color3:  #eabb56;
-    --color4:  #639de0;
-    --color5:  #dc6fcc;
-    --color6:  #61bedc;
-    --color7:  #b4ceed;
+    --color1:  #de5c59;
+    --color2:  #9dd470;
+    --color3:  #dfb55d;
+    --color4:  #6799d5;
+    --color5:  #c772d2;
+    --color6:  #67b6d1;
+    --color7:  #aac2df;
 
-    --color9:  #e75c66;
+    --color9:  #ee6a65;
     --color10: #ace37e;
     --color11: #eec36a;
     --color12: #76a6e4;
-    --color13: #e180d2;
+    --color13: #d580e0;
     --color14: #76c4e0;
-    --color15: #bdd3ef;
+    --color15: #c2ddff;
 }
 
 .theme-dark,
@@ -190,8 +190,8 @@
     --background-message-highlight: rgba(138, 173, 244, 0.1);
     --background-message-highlight-hover: rgba(138, 173, 244, 0.08); */
     
-    --channels-default: var(--main-txt-color);
-    --channel-icon: var(--main-txt-color);
+    --channels-default: var(--color7);
+    --channel-icon: var(--color7);
     --channel-text-area-placeholder: var(--color15);
     --channeltextarea-background: var(--panel-fg-color);
 
@@ -225,7 +225,7 @@
 }
 
 ::selection {
-    color: white;
+    color: white !important;
     background-color: var(--accent-color) !important;
 }
 

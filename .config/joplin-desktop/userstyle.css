@@ -5,7 +5,7 @@
  *********************************************************/
 
 :root {
-    --main-txt-color: #c2ddff;
+    --main-txt-color: #b3c8e1;
     --alt-txt-color:  #8fb2f1;
     --accent-color:   #4586c4;
 
@@ -13,15 +13,21 @@
     --md-bg-color:    #293544;
     --panel-bg-color: #242f3b;
 
-    --color4:  #639de0;
-    --color6:  #61bedc;
-    --color8:  #5d6a7d;
+    --color1:  #de5c59;
+    --color2:  #9dd470;
+    --color3:  #dfb55d;
+    --color4:  #6799d5;
+    --color5:  #c772d2;
+    --color6:  #67b6d1;
+    --color7:  #aac2df;
+
+    --color9:  #ee6a65;
     --color10: #ace37e;
     --color11: #eec36a;
     --color12: #76a6e4;
-    --color13: #e180d2;
+    --color13: #d580e0;
     --color14: #76c4e0;
-    --color15: #bdd3ef;
+    --color15: #c2ddff;
 }
 
 /*********************************************************
@@ -207,11 +213,11 @@ pre,
 }
 
 .hljs-quote {
-    color: var(--color8);
+    color: var(--color7);
 }
 
 .hljs-comment {
-    color: var(--color8);
+    color: var(--color7);
 }
 
 .hljs-doctag {
