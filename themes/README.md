@@ -40,7 +40,7 @@
     - Move the file, `colorscheme.lua`, into the directory
     - Move the file, `wezterm.lua`, into the directory
 
-<details open>
+<details close>
 <summary>KDE</summary>
 
 **KColorScheme:**
