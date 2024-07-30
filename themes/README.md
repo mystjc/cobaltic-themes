@@ -1,6 +1,9 @@
 
 # Installation Guide
 
+<details open>
+<summary>Applications & Utilities</summary>
+
 **Fastfetch:**
 - Navigate to `~/.config/fastfetch/`
     - Move the file, `config.jsonc`, into the directory
@@ -39,6 +42,8 @@
 - Navigate to `~/.config/wezterm/`
     - Move the file, `colorscheme.lua`, into the directory
     - Move the file, `wezterm.lua`, into the directory
+
+</details>
 
 <details close>
 <summary>KDE</summary>
