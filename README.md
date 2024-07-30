@@ -105,26 +105,3 @@ This repository offers a collection of Cobaltic-related themes for a variety of 
 	</tr>
 </table>
 </details>
-
-## Installation
-
-Install Stow and clone the repository to `~/cobaltic-themes`:
-
-```shell
-sudo pacman -S stow
-git clone https://github.com/mystjc/cobaltic-themes.git && cd cobaltic-themes
-```
-
-Then, run Stow within `~/cobaltic-themes` to create the symlinks:
-
-```shell
-stow .
-```
-
-If there is a conflict with pre-existing files, use:
-
-```shell
-stow --adopt .
-```
-
-#### Highly recommand this [video](https://youtu.be/y6XCebnB9gs?list=PLgO4Le-rukkJjc45SlAjDi-xtikmoOdUu) by Dreams of Autonomy for additional infomation on using Stow!
