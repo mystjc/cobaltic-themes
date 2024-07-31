@@ -31,8 +31,8 @@ KlassyDarkIconThemeInherits=Papirus-Dark
 KlassyIconThemeInherits=Papirus
 
 [TitleBarOpacity]
-ActiveTitleBarOpacity=90
-InactiveTitleBarOpacity=90
+ActiveTitleBarOpacity=95
+InactiveTitleBarOpacity=95
 OpaqueMaximizedTitleBars=false
 
 [TitleBarSpacing]

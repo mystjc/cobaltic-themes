@@ -15,7 +15,7 @@ config.default_prog = { '/usr/bin/fish', '-l' }
 
 -- Colorscheme
 colorscheme.apply_colors(config)
-config.window_background_opacity = 0.9
+config.window_background_opacity = 0.95
 
 -- Font
 config.font_size = 10
