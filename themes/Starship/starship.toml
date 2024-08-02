@@ -21,6 +21,8 @@ $git_branch\
 $git_status\
 $docker_context\
 $c\
+${custom.cpp}\
+${custom.cs}\
 $golang\
 $java\
 $kotlin\
@@ -56,12 +58,6 @@ format = '[ $user ]($style)'
 style = "bg:#4586c4"
 format = "[$path ]($style)"
 
-[time]
-disabled = false
-time_format = "%R" # Hour:Minute Format
-style = "bg:#34465c"
-format = '[  $time ]($style)'
-
 [git_branch]
 symbol = ""
 style = "bg:#34465c"
@@ -76,43 +72,72 @@ symbol = ""
 style = "bg:#34465c"
 format = '[ $symbol $context]($style) $path'
 
+[time]
+disabled = false
+time_format = "%R" # Hour:Minute Format
+style = "bg:#34465c"
+format = '[  $time ]($style)'
+
 # Languages
 [c]
 symbol = ""
+detect_extensions = ['c']
 style = "bg:#34465c"
-format = '[ \[$symbol ($version)\]]($style)'
+format = '[ $symbol ($version)]($style)'
 
 [golang]
 symbol = ""
+detect_extensions = ['go']
 style = "bg:#34465c"
-format = '[ \[$symbol ($version)\]]($style)'
+format = '[ $symbol ($version)]($style)'
 
 [java]
 symbol = ""
+detect_extensions = ['java']
 style = "bg:#34465c"
-format = '[ \[$symbol ($version)\]]($style)'
+format = '[ $symbol ($version)]($style)'
 
 [kotlin]
 symbol = ""
+detect_extensions = ['kt']
 style = "bg:#34465c"
-format = '[ \[$symbol ($version)\]]($style)'
+format = '[ $symbol ($version)]($style)'
 
 [lua]
 symbol = "󰢱"
+detect_extensions = ['lua']
 style = "bg:#34465c"
-format = '[ \[$symbol ($version)\]]($style)'
+format = '[ $symbol ($version)]($style)'
 
 [nodejs]
 symbol = ""
+detect_extensions = ['js', 'ts']
 style = "bg:#34465c"
-format = '[ \[$symbol ($version)\]]($style)'
+format = '[ $symbol ($version)]($style)'
 
 [python]
 symbol = ""
+detect_extensions = ['py']
 style = "bg:#34465c"
-format = '[ \[$symbol ($version)\]]($style)'
+format = '[ $symbol ($version)]($style)'
 
 [rust]
 symbol = "󱘗"
+detect_extensions = ['rs']
 style = "bg:#34465c"
-format = '[ \[$symbol ($version)\]]($style)'
+format = '[ $symbol ($version)]($style)'
+
+# Custom Languages
+[custom.cpp]
+symbol = ""
+command = "echo -n 'v' && echo -n $(cpp --version) | awk '{ print $3 }'"
+detect_extensions = ['cpp']
+style = "bg:#34465c"
+format = '[ $symbol $output]($style)'
+
+[custom.cs]
+symbol = "󰌛"
+command = "echo -n 'v' && echo -n $(dotnet --version) | awk '{ print $1 }'"
+detect_extensions = ['cs']
+style = "bg:#34465c"
+format = '[ $symbol $output]($style)'
