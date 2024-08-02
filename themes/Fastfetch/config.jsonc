@@ -28,41 +28,41 @@
             "type": "os",
             "format": "{3} {12}",
             "key": " ╭─ ",
-            "color": "purple"
+            "color": "magenta"
         },
         {
             "type": "kernel",
             "format": "{1} ({2})",
             "key": " ├─ ",
-            "color": "purple"
+            "color": "magenta"
         },
         {
             "type": "packages",
             "format": "{} (pacman)",
             "key": " ├─󰮯 ",
-            "color": "purple"
+            "color": "magenta"
         },
         {
             "type": "uptime",
             "key": " ├─ ",
-            "color": "purple"
+            "color": "magenta"
         },
         {
             "type": "wm",
             "key": " ├─ ",
-            "color": "purple"
+            "color": "magenta"
         },
         {
             "type": "shell",
             "format": "{3} ({4})",
             "key": " ├─󰞷 ",
-            "color": "purple"
+            "color": "magenta"
         },
         {
             "type": "terminal",
             "format": "{5} ({6})",
             "key": " ╰─ ",
-            "color": "purple"
+            "color": "magenta"
         },
         {
             "type": "custom",
@@ -72,30 +72,30 @@
             "type": "host",
             "format": "{5} {1}{2}",
             "key": " ╭─󰟀 ",
-            "color": "purple"
+            "color": "magenta"
         },
         {
             "type": "cpu",
             "format": "{1}",
             "key": " ├─ ",
-            "color": "purple"
+            "color": "magenta"
         },
         {
             "type": "gpu",
             "format": "{1} {2} ({6})",
             "key": " ├─󱤓 ",
-            "color": "purple"
+            "color": "magenta"
         },
         {
             "type": "disk",
             "format": "{1} / {2} ({3}) - {10} ({9})",
             "key": " ├─ ",
-            "color": "purple"
+            "color": "magenta"
         },
         {
             "type": "memory",
             "key": " ╰─ ",
-            "color": "purple"
+            "color": "magenta"
         },
         {
             "type": "custom",
@@ -103,7 +103,7 @@
         },
         {
             "type": "custom",
-            "format": "  {#red}󱓻 {#green}󱓻 {#yellow}󱓻 {#blue}󱓻 {#magenta}󱓻 {#cyan}󱓻 "
+            "format": "\t\t\t  {#red}󱓻 {#green}󱓻 {#yellow}󱓻 {#blue}󱓻 {#magenta}󱓻 {#cyan}󱓻   {#light_red}󱓻 {#light_green}󱓻 {#light_yellow}󱓻 {#light_blue}󱓻 {#light_magenta}󱓻 {#light_cyan}󱓻 "
         }
     ]
 }

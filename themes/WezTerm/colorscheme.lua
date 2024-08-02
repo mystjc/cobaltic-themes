@@ -7,12 +7,12 @@ config.colors = {
       background = '#242f3b',
       ansi = {
          '#293544', -- black
-         '#de5c59', -- red
-         '#9dd470', -- green
-         '#dfb55d', -- yellow
-         '#6799d5', -- blue
-         '#c772d2', -- magenta/purple
-         '#67b6d1', -- cyan
+         '#c3514f', -- red
+         '#8bbb65', -- green
+         '#c4a053', -- yellow
+         '#5c87bb', -- blue
+         '#b066b9', -- magenta/purple
+         '#5ba0b7', -- cyan
          '#aac2df', -- white
       },
       brights = {
