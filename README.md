@@ -29,34 +29,34 @@ This repository offers a collection of Cobaltic-related themes for a variety of 
 		<td><code>#293544</code></td>
 	</tr>
 	<tr>
-		<td><img src="https://place-hold.it/32/de5c59?text=+" width="24"/></td>
+		<td><img src="https://place-hold.it/32/c3514f?text=+" width="24"/></td>
 		<td>Color 1</td>
-		<td><code>#de5c59</code></td>
+		<td><code>#c3514f</code></td>
 	</tr>
 	<tr>
-		<td><img src="https://place-hold.it/32/9dd470?text=+" width="24"/></td>
+		<td><img src="https://place-hold.it/32/8bbb65?text=+" width="24"/></td>
 		<td>Color 2</td>
-		<td><code>#9dd470</code></td>
+		<td><code>#8bbb65</code></td>
 	</tr>
 	<tr>
-		<td><img src="https://place-hold.it/32/dfb55d?text=+" width="24"/></td>
+		<td><img src="https://place-hold.it/32/c4a053?text=+" width="24"/></td>
 		<td>Color 3</td>
-		<td><code>#dfb55d</code></td>
+		<td><code>#c4a053</code></td>
 	</tr>
 	<tr>
-		<td><img src="https://place-hold.it/32/6799d5?text=+" width="24"/></td>
+		<td><img src="https://place-hold.it/32/5c87bb?text=+" width="24"/></td>
 		<td>Color 4</td>
-		<td><code>#6799d5</code></td>
+		<td><code>#5c87bb</code></td>
 	</tr>
 	<tr>
-		<td><img src="https://place-hold.it/32/c772d2?text=+" width="24"/></td>
+		<td><img src="https://place-hold.it/32/b066b9?text=+" width="24"/></td>
 		<td>Color 5</td>
-		<td><code>#c772d2</code></td>
+		<td><code>#b066b9</code></td>
 	</tr>
 	<tr>
-		<td><img src="https://place-hold.it/32/67b6d1?text=+" width="24"/></td>
+		<td><img src="https://place-hold.it/32/5ba0b7?text=+" width="24"/></td>
 		<td>Color 6</td>
-		<td><code>#67b6d1</code></td>
+		<td><code>#5ba0b7</code></td>
 	</tr>
 	<tr>
 		<td><img src="https://place-hold.it/32/aac2df?text=+" width="24"/></td>
