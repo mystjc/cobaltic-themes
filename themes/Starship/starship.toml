@@ -65,7 +65,7 @@ format = '[ $symbol $branch]($style)'
 
 [git_status]
 style = "bg:#34465c"
-format = '[ $all_status]($style)'
+format = '[$all_status]($style)'
 
 [docker_context]
 symbol = ""
