@@ -6,8 +6,8 @@
 // |_|  \___/|_| |_|
 
 * {
-    background:     #293544;
-    background-alt: #34465c;
+    background:     #2b3947;
+    background-alt: #344a5e;
     foreground:     #b3c8e1;
     selected:       #4586c4;
     active:         #4586c4;

@@ -13,7 +13,7 @@ config.colors = {
       foreground = '#b3c8e1',
       background = '#242f3b',
       ansi = {
-         '#293544', -- black
+         '#2b3947', -- black
          '#c3514f', -- red
          '#8bbb65', -- green
          '#c4a053', -- yellow
@@ -23,7 +23,7 @@ config.colors = {
          '#aac2df', -- white
       },
       brights = {
-         '#34465c', -- black
+         '#344a5e', -- black
          '#ee6a65', -- red
          '#ace37e', -- green
          '#eec36a', -- yellow
@@ -46,11 +46,11 @@ config.colors = {
          },
          inactive_tab = {
             fg_color = '#aac2df',
-            bg_color = '#34465c',
+            bg_color = '#344a5e',
          },
          inactive_tab_hover = {
             fg_color = '#c2ddff',
-            bg_color = '#34465c',
+            bg_color = '#344a5e',
          },
          new_tab = {
             fg_color = '#aac2df',
