@@ -11,6 +11,5 @@ cp -ua ~/dotfiles/.config/starship/. ~/Documents/GitHub/cobaltic-themes/themes/S
 cp -ua ~/dotfiles/.config/wezterm/. ~/Documents/GitHub/cobaltic-themes/themes/WezTerm
 
 cp -ua ~/.local/share/color-schemes/. ~/Documents/GitHub/cobaltic-themes/themes/KDE/KColorScheme
-cp -ua ~/.local/share/org.kde.syntax-highlighting/themes/. ~/Documents/GitHub/cobaltic-themes/themes/KDE/KSyntaxHighlighting
 cp -ua ~/.config/klassy/. ~/Documents/GitHub/cobaltic-themes/themes/KDE/Klassy
 cp -ua ~/.local/share/konsole/Cobaltic.colorscheme ~/Documents/GitHub/cobaltic-themes/themes/KDE/Konsole

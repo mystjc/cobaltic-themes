@@ -66,10 +66,4 @@
     - Click `New` and check `Default Profile`
     - Click `Appearance`, select `Cobaltic`, and apply the theme
 
-**KSyntaxHighlighting (Kate, KWrite, Kile):**
-- Navigate to `~/.local/share/org.kde.syntax-highlighting/themes/`
-    - Move the file, `Cobaltic.theme`, into the directory
-- Launch a KDE editor and navigate to `Settings > Configure Editor > Color Themes`
-    - Click `Select Theme Dropdown`, select `Cobaltic`, and apply the theme
-
 </details>
