@@ -4,6 +4,11 @@
 <details open>
 <summary>Applications & Utilities</summary>
 
+**Btop++:**
+- Navigate to `~/.config/btop/`
+    - Move the file, `themes/cobaltic.theme`, into the directory
+    - Move the file, `btop.conf`, into the directory
+
 **Fastfetch:**
 - Navigate to `~/.config/fastfetch/`
     - Move the file, `config.jsonc`, into the directory
@@ -16,10 +21,14 @@
     - Navigate to `Tools > Options > Appearance`
 	- Make sure that **Joplin is using Aritim Dark** under Theme
 
-**kitty:**
+**Kitty:**
 - Navigate to `~/.config/kitty/`
     - Move the file, `colorscheme.conf`, into the directory
     - Move the file, `kitty.conf`, into the directory
+
+**Lazygit:**
+- Navigate to `~/.config/lazygit/`
+    - Move the file, `config.yml`, into the directory
 
 **MangoHud:**
 - Navigate to `~/.config/MangoHud/`
@@ -42,6 +51,13 @@
 - Navigate to `~/.config/wezterm/`
     - Move the file, `colorscheme.lua`, into the directory
     - Move the file, `wezterm.lua`, into the directory
+
+**Yazi:**
+- Navigate to `~/.config/yazi/`
+    - Move the file, `plugins/bat.yazi`, into the directory
+    - Move the file, `keymap.toml`, into the directory
+    - Move the file, `theme.toml`, into the directory
+    - Move the file, `yazi.toml`, into the directory
 
 </details>
 
