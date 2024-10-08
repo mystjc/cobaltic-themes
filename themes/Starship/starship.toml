@@ -11,7 +11,7 @@
 "$schema" = 'https://starship.rs/config-schema.json'
 
 format = """
-[╭─](bold #344a5e)\
+[╭](bold #344a5e)\
 $os\
 $username\
 [ ](fg:#344a5e bg:#4586c4)\
@@ -45,8 +45,8 @@ disabled = false
 style = "bg:#344a5e"
 
 [os.symbols]
-Arch = " "
-EndeavourOS = " "
+Arch = ""
+EndeavourOS = ""
 
 [username]
 show_always = true
@@ -76,7 +76,7 @@ format = '[ $symbol $context]($style) $path'
 disabled = false
 time_format = "%R" # Hour:Minute Format
 style = "bg:#344a5e"
-format = '[  $time ]($style)'
+format = '[  $time]($style)'
 
 # Languages
 [c]
