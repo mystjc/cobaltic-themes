@@ -22,8 +22,8 @@ config.font_size = 10
 config.font = wezterm.font("CaskaydiaCove Nerd Font")
 
 -- Window layout
-config.initial_rows = 37
-config.initial_cols = 124
+config.initial_rows = 40
+config.initial_cols = 130
 
 -- Tabs
 config.use_fancy_tab_bar = false
