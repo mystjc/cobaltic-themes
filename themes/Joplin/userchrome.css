@@ -98,6 +98,10 @@
     background-color: var(--panel-bg-color) !important;
 }
 
+.rli-noteList>div>div {
+    border-radius: 5px;
+}
+
 /* Notes List Top Panel */
 .rli-noteList>div>div>div {
     background-color: var(--panel-mg-color) !important;
